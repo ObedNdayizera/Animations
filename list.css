@@ -1,0 +1,52 @@
+body {
+    background: url(file:///C:/Users/Sabas/Downloads/music3.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+}
+
+a:hover {
+    background-color: green;
+}
+/* is the same as that */
+/* .test {
+    display: none;
+}
+
+/* ul li:hover>.test{ 
+ul li:hover .test {
+    display: block;
+} */
+
+
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
